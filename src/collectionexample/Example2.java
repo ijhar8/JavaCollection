@@ -7,23 +7,20 @@ package collectionexample;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.List;
 
 /**
  *
  * @author ijhar
  */
-public class CollectionExample {
-
-    /**
-     * @param args the command line arguments
-     */
+public class Example2 {
     public static void main(String[] args) {
         // TODO code application logic here
-        Collection values=new ArrayList();
+        List values=new ArrayList();
         values.add(1);
         values.add(5);
         values.add(3);
-        values.add("11");
+        values.add(1,"11");//Intedex suport in List
         for(Object o:values)
         {
             System.out.println(o);
